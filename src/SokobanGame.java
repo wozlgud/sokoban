@@ -1,6 +1,7 @@
 package src;
 
 public class SokobanGame {
+
     public SokobanGame () {
         // player:😊
         // box:📦
@@ -18,6 +19,7 @@ public class SokobanGame {
         System.out.println("🟨🟨🟨🟥🟩🟥🟨🟨");
         System.out.println("🟨🟨🟨🟥🟥🟥🟨🟨");
     }
+
     public static void main(String[] args) {
         new SokobanGame();
     }
