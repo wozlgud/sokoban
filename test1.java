@@ -10,10 +10,6 @@ public class test1 {
         // 배경:🟨
         // 길:⬜
         // 🟦🟪🟧🟫⬛
-        new test1();
-    }
-
-    public static void main(String[] args) {
         System.out.printf("🟨🟨🟥🟥🟥🟨🟨🟨\n");
         System.out.printf("🟨🟨🟥🟩🟥🟨🟨🟨\n");
         System.out.printf("🟨🟨🟥⬜🟥🟥🟥🟥\n");
@@ -22,5 +18,9 @@ public class test1 {
         System.out.printf("🟥🟥🟥🟥📦🟥🟨🟨\n");
         System.out.printf("🟨🟨🟨🟥🟩🟥🟨🟨\n");
         System.out.printf("🟨🟨🟨🟥🟥🟥🟨🟨\n");
+    }
+
+    public static void main(String[] args) {
+        new test1();
     }
 }
